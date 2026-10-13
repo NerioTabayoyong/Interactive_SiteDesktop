@@ -28,8 +28,25 @@ nav {
 }
 
 img {
-max-width: 80%;
-height: auto; 
-display: block;
-margin: auto;
+  max-width: 80%;
+  height: auto; 
+  display: block;
+  margin: auto;
+}
+
+p {
+  display:block;
+  flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+ol {
+  height: 50px;
+  padding: 20px 5px 20px 5px;
+  margin-bottom: 10px;
+  border: 8px solid black;
+  text-decoration: none;
+display: flex;
 }
