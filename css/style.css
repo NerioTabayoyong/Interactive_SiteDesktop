@@ -70,3 +70,10 @@ article {
   flex-direction:column
 }
 
+.vertical-list {
+  display: flex;
+  flex-direction: column; 
+  gap: 10%;                 
+  padding: 0;             
+  margin: 16px;              
+}
