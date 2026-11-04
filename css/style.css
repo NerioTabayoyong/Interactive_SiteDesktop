@@ -56,18 +56,28 @@ nav{
   flex-wrap: nowrap;
   justify-content:space-evenly;
   width: 100px;
+  transition-duration: 0.5s;
+}
+a:hover{
+  transform: scale(1.2);
+  color:azure;
 }
 }
-
 
 
 article {
   font-size: 36px;
-  padding: 20px 5px 20px 5px;
-  border: 8px solid black;
   text-decoration: none;
   display: flex;
-  flex-direction:column
+  flex-direction:column;
+  position:relative;
+  a{
+    transition-duration: 0.5s;
+  }
+  a:hover{
+  transform: scale(1.1) translate(60px, 0px);
+  color:azure;
+}
 }
 
 .vertical-list {
