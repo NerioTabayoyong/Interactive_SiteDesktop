@@ -52,7 +52,23 @@ hint: adjust the first two value only if they are negative values to begin with,
 
 /* 5. add more stars to the mix and experiment with placement and hover effects. */
 
-
+nav{
+  display:flex;	
+  flex-direction:row;
+  flex-wrap: nowrap;
+	align-items: end;
+  justify-content: end;
+	margin-right: 4%;
+  a{
+  display:block;
+  font-size: 55px;
+  transition-duration: 0.5s;
+  }
+a:hover{
+  transform: scale(1.2);
+  color:azure;
+}
+}
 
 #starOne {
   /* cursor: ;
