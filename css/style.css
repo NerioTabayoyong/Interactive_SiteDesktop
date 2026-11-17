@@ -101,12 +101,12 @@ article {
   display:flex;	
   flex-direction:column;
   flex-wrap: nowrap;
+	align-items: end;
   justify-content: end;
   }
 
   #article {
-  display: flex;
-  position:relative;
+  flex-direction:row;
   align-items: center;
   }
 
