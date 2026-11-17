@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/checkpoint_one.css">
     <title>Checkpoint</title>
   </head>
   <body>
@@ -66,6 +67,14 @@ I wanted to unify my navigation menu by creating a small animation when visitors
 </p>
 <p>
 While working on this I also felt the Project List should also receive the same thing. I copied the same code from the nav menu and contained it within the article tag instead for the assigned projects. Though a problem resulted when hovering over a link it caused the link to move to the left and out of the screen. I suspect this had to do with the margins and flex container used to set up the second list. In order to fix it I essentially added another transformation to make it seem like that the link stayed in place.</p>
+
+<h3>(11/17)</h3>
+<p>I wanted to create breakpoints and cause specific changes at the initial navigation menu, as well as the menu for all of my projects. The gif in the middle of the page was not altered in any way. I wanted that to be the first thing visitors see when entering the site. However, that still meant that the menus surrounding it needed to change. Below is the default site with its standard width:</p>
+<img src="./img/breakpoint1.png">
+<p>The most difficulty I had when testing breakpoints in the first place was wondering whether it was working with my site or not. Initially, whatever new line of code I used did not seem to change my site in the slightest. It was frustrating that I was making intense changes in my code and seeing nothing get changed. However, the fix was really easy. I wrote down my breakpoints with an additional key before the breakpoints (ex; #nav & #article). Removing it allowed me to mess with the menus as much as I wanted. For both menus, when the screen is at a specific width, the menus are centered, making it easier to keep track of every element visible on screen.  The navigation menu was changed to become from a row to a column list when the width is altered. This is to make the navigation menu more compact and thus easier to read.</p>
+<img src="./img/breakpoint2.png">
+<img src="./img/breakpoint3.png">
+
 
   </body>
 </html>

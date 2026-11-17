@@ -92,10 +92,10 @@ article {
 
 @media screen and (max-width: 36em){
   body{
-    font-size: 100%;
+    font-size: 75%;
   }
   article{
-    font-size: 100%;
+    font-size: 75%;
     align-items: center;
     a:hover{
       transform: scale(1.1) translate(0px, 0px);

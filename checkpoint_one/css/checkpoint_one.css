@@ -7,12 +7,8 @@ for now, you can leave these alone */
     box-sizing: border-box;
 }
 
-/* Css is how we add all things style, below there are two simple styles added
-go ahead and play with these, can you get the colors to change? What do you notice?
- */
-
-body {
-
-    color: #26241C;
-    background-color: #F2F0D8;
+img {
+    border: 5px solid #300932;
+    border-radius: 12px;
+    max-width: 50%;
 }
