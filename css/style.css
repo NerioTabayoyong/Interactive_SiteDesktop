@@ -90,16 +90,12 @@ article {
   margin: 16px;              
 }
 
-#gif {
-  height: auto; 
-  display: block;
-  margin: auto;
-  background-color: coral;
-}
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 36em){
   body{
-    font-size: 75%;
+    font-size: 100%;
+  }
+  article{
+    font-size: 100%;
   }
   #nav{
   display:flex;	
@@ -111,8 +107,15 @@ article {
 
   #article {
   display: flex;
-  flex-direction:column;
+  flex-direction:row;
   position:relative;
+  align-items: center;
+  }
+
+  #gif {
+  height: auto; 
+  display: block;
+  margin: auto;
   }
 
 }
