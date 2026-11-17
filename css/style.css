@@ -99,15 +99,13 @@ article {
   }
   #nav{
   display:flex;	
-  flex-direction:row;
+  flex-direction:column;
   flex-wrap: nowrap;
-	align-items: end;
   justify-content: end;
   }
 
   #article {
   display: flex;
-  flex-direction:row;
   position:relative;
   align-items: center;
   }
